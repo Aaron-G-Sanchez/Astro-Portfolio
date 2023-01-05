@@ -2,6 +2,9 @@ const Links = () => {
   return (
     <>
       <nav className="links-bar">
+        <div className="connect-wrapper">
+          <p>Let's Connect!</p>
+        </div>
         <div className="button-container">
           <a href="https://www.linkedin.com/in/aaron-g-sanchez/">
             <img
