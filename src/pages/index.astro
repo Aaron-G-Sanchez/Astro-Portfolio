@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css'
 import About from '../components/About.jsx'
+import Links from '../components/Links';
 ---
 
 <html lang="en">
@@ -16,22 +17,23 @@ import About from '../components/About.jsx'
 	</head>
 	<body>
 		<main class="hero">
+			<Links />
 			<header class="heading">
 				<img class="name" src="/assets/images/NAME.svg" alt="name">
 				<div class="animation-wrapper">
-					<h2>I'm a:</h2>
+					<h1>I am:</h1>
 					<div class="animation-div">
 						<ul class="title flip">
-							<li>Burrito enthusiast.</li>
-							<li>Audio Engineer.</li>
-							<li>Full Stack Software Engineer.</li>
+							<li>An Audio Engineer.</li>
+							<li>A Burrito Enthusiast.</li>
+							<li>A Full Stack Software Engineer.</li>
 						</ul>
 					</div>
 				</div>
 			</header>
 		</main>
+
 		<About />
 	
-			
 	</body>
 </html>
