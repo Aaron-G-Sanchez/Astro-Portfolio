@@ -8,7 +8,10 @@ const Links = () => {
           </a>
         </div>
         <div className="button-container">
-          <a href="https://www.linkedin.com/in/aaron-g-sanchez/">
+          <a
+            href="https://www.linkedin.com/in/aaron-g-sanchez/"
+            target="_blank"
+          >
             <img
               className="social-icon"
               src="/assets/images/linkedin.png"
@@ -18,7 +21,7 @@ const Links = () => {
         </div>
 
         <div className="button-container">
-          <a href="https://github.com/Aaron-G-Sanchez">
+          <a href="https://github.com/Aaron-G-Sanchez" target="_blank">
             <img
               className="social-icon"
               src="/assets/images/github.png"
