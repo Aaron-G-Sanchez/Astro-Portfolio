@@ -3,7 +3,9 @@ const Links = () => {
     <>
       <nav className="links-bar">
         <div className="connect-wrapper">
-          <p>Let's Connect!</p>
+          <a className="email-link" href="mailto:saarong12@gmail.com">
+            <p>Let's Connect!</p>
+          </a>
         </div>
         <div className="button-container">
           <a href="https://www.linkedin.com/in/aaron-g-sanchez/">

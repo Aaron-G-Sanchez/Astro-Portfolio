@@ -154,6 +154,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--black);
+}
+
+.email-link {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.connect-wrapper p {
+  font-size: 110%;
 }
 
 .button-container {
