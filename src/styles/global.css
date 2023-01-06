@@ -171,12 +171,25 @@ body {
   align-items: center;
   justify-content: center;
   padding: .3%;
+  transition: .5s;
+}
+
+.button-container:hover {
+  background-color: var(--white);
+}
+
+.button-container:hover .social-icon {
+  filter: none;
 }
 
 .social-icon {
-  height: 42px;
-  width: 42px;
+  width: 70%;
+  aspect-ratio: 1/1;
+  filter: invert();
 }
+
+
+
 
 
 
