@@ -1,7 +1,7 @@
 const About = () => {
   return (
-    <section class="about">
-      <div class="about-wrapper">
+    <section className="about">
+      <div className="about-wrapper">
         <p>
           As a software engineer with a passion for audio, I bring a unique
           blend of technical expertise and creative problem-solving to every
