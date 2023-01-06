@@ -2,11 +2,6 @@ const Links = () => {
   return (
     <>
       <nav className="links-bar">
-        <div className="connect-wrapper">
-          <a className="email-link" href="mailto:saarong12@gmail.com">
-            <p>Let's Connect!</p>
-          </a>
-        </div>
         <div className="button-container">
           <a
             href="https://www.linkedin.com/in/aaron-g-sanchez/"
@@ -27,6 +22,11 @@ const Links = () => {
               src="/assets/images/github.png"
               alt="github-logo"
             />
+          </a>
+        </div>
+        <div className="connect-wrapper">
+          <a className="email-link" href="mailto:saarong12@gmail.com">
+            <p>Let's Connect!</p>
           </a>
         </div>
       </nav>
