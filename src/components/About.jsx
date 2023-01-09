@@ -13,14 +13,29 @@ const About = () => {
           expectations.
         </p>
       </div>
-      <div class="skills">
+      <div className="skills">
         <h2>Skills</h2>
         <section className="skills-carousel">
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-          </ul>
+          <div className="marquee">
+            <img src="./assets/images/html.png" alt="html-icon" />
+            <img src="./assets/images/css.png" alt="css-icon" />
+            <img src="./assets/images/javascript.png" alt="javascript-icon" />
+            <img src="./assets/images/git.png" alt="git-icon" />
+            <img src="./assets/images/react.png" alt="react-icon" />
+            <img src="./assets/images/vue.png" alt="vue-icon" />
+            <img src="./assets/images/node.png" alt="node-icon" />
+            <img src="./assets/images/npm.png" alt="npm-icon" />
+            <img src="./assets/images/express.png" alt="express-icon" />
+            <img src="./assets/images/mongo.png" alt="mongo-icon" />
+            <img src="./assets/images/mongoose.png" alt="mongoose-icon" />
+            <img src="./assets/images/postgres.png" alt="postgres-icon" />
+            <img src="./assets/images/python.png" alt="python-icon" />
+            <img src="./assets/images/ableton.png" alt="ableton-icon" />
+            <img src="./assets/images/flask.png" alt="flask-icon" />
+            <img src="./assets/images/trello.png" alt="trello-icon" />
+            <img src="./assets/images/xd.png" alt="xd-icon" />
+            <img src="./assets/images/visual-studio.png" alt="xd-icon" />
+          </div>
         </section>
       </div>
     </section>
