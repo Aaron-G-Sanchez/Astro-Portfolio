@@ -117,23 +117,6 @@ body {
   animation: flip 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
 }
 
-/* ABOUT SECTION */
-
-.about {
-  height: 100vh;
-  width: 100vw;
-  margin: 0;
-  background-color: #08203e;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.about-wrapper {
-  width: 70%;
-}
-
 /* LINKS BAR */
 
 .links-bar {
@@ -206,8 +189,22 @@ body {
   font-size: 110%;
 }
 
+/* ABOUT SECTION */
 
+.about {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  background-color: #08203e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+.about-wrapper {
+  width: 70%;
+}
 
 
 

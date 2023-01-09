@@ -15,6 +15,13 @@ const About = () => {
       </div>
       <div class="skills">
         <h2>Skills</h2>
+        <section className="skills-carousel">
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </section>
       </div>
     </section>
   )
