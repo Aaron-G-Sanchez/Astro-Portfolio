@@ -25,8 +25,8 @@ const About = () => {
               <img src="./assets/images/react.png" alt="react-icon" />
               <img src="./assets/images/vue.png" alt="vue-icon" />
               <img src="./assets/images/node.png" alt="node-icon" />
-              <img src="./assets/images/npm.png" alt="npm-icon" />
               <img src="./assets/images/express.png" alt="express-icon" />
+              <img src="./assets/images/npm.png" alt="npm-icon" />
               <img src="./assets/images/mongo.png" alt="mongo-icon" />
               <img src="./assets/images/mongoose.png" alt="mongoose-icon" />
               <img src="./assets/images/postgres.png" alt="postgres-icon" />
@@ -46,8 +46,8 @@ const About = () => {
               <img src="./assets/images/react.png" alt="react-icon" />
               <img src="./assets/images/vue.png" alt="vue-icon" />
               <img src="./assets/images/node.png" alt="node-icon" />
-              <img src="./assets/images/npm.png" alt="npm-icon" />
               <img src="./assets/images/express.png" alt="express-icon" />
+              <img src="./assets/images/npm.png" alt="npm-icon" />
               <img src="./assets/images/mongo.png" alt="mongo-icon" />
               <img src="./assets/images/mongoose.png" alt="mongoose-icon" />
               <img src="./assets/images/postgres.png" alt="postgres-icon" />
