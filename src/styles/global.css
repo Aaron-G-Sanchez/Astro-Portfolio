@@ -224,14 +224,15 @@ body {
 }
 
 .marquee {
-  width: 100%;
+  width: 200%;
   display: flex;
-  gap: 5%;
   overflow-x: hidden;
   background-color: var(--white);
 }
 
-.marquee img {
+.marquee-content {
+  display: flex;
+  justify-content: space-between;
   animation: scroll-left 15s linear infinite;
 }
 
@@ -242,7 +243,7 @@ body {
   }
 
   100% {
-    transform: translateX(-2640%);
+    transform: translateX(-100%);
   }
 }
 
