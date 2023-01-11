@@ -1,4 +1,8 @@
 const About = () => {
+  const handleClick = () => {
+    console.log('clicked')
+  }
+
   return (
     <section className="about">
       <div className="about-wrapper">
@@ -60,6 +64,7 @@ const About = () => {
             </div>
           </div>
         </section>
+        <button onClick={handleClick}>Resume</button>
       </div>
     </section>
   )

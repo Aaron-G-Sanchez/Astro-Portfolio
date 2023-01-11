@@ -1,11 +1,5 @@
 const Projects = () => {
-  return (
-    <section className="projects">
-      <div>
-        <h1>Project Section</h1>
-      </div>
-    </section>
-  )
+  return <section className="projects"></section>
 }
 
 export default Projects

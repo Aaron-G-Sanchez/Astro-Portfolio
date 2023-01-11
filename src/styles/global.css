@@ -246,8 +246,11 @@ body {
   animation: scroll-left 15s linear infinite;
 }
 
+/* PROJECT SECTION */
+
 .projects {
-  height: 100vh;
+  height: 110vh;
   width: 100vw;
+  background-color: #557c93;
 }
 
