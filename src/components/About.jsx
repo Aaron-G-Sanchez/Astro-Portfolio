@@ -2,7 +2,8 @@ const About = () => {
   return (
     <section className="about">
       <div className="about-wrapper">
-        <p>
+        <p className="about-title">About Me</p>
+        <p className="brand-statement">
           As a software engineer with a passion for audio, I bring a unique
           blend of technical expertise and creative problem-solving to every
           project. My background in the audio industry has given me a deep
@@ -14,7 +15,7 @@ const About = () => {
         </p>
       </div>
       <div className="skills">
-        <h2>Skills</h2>
+        <h2 className="skills-title">Skills</h2>
         <section className="skills-wrapper">
           <div className="marquee">
             <div className="marquee-content">
