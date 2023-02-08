@@ -62,10 +62,11 @@ const About = () => {
           </div>
         </section>
         <a
+          className="resume-button"
           href="https://drive.google.com/file/d/1J72gbVOpt391rjX698ZM1F6UxDJHR2xA/view?usp=sharing"
           target="_blank"
         >
-          <button>Resume</button>
+          <p>Resume</p>
         </a>
       </div>
     </section>
