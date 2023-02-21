@@ -279,3 +279,20 @@ body {
 .projects-title{
   font-size: 400%;
 }
+
+.projects-wrapper { 
+  width: 100%;
+  height: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2em;
+}
+
+.project-container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  color: var(--black);
+  background-color: var(--white);
+  border-radius: 20px;
+}

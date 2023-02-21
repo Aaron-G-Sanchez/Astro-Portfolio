@@ -4,14 +4,14 @@ const Projects = () => {
       <section className="projects">
         <p className="projects-title">My Projects</p>
         <section className="projects-wrapper">
-          <div>
-            <p>Sines Ear Trainer</p>
+          <div className="project-container">
+            <h2>Sines Ear Trainer</h2>
           </div>
-          <div>
-            <p>Hogwarts Administration System</p>
+          <div className="project-container">
+            <h2>Hogwarts Administration System</h2>
           </div>
-          <div>
-            <p>BeerBook</p>
+          <div className="project-container">
+            <h2>BeerBook</h2>
           </div>
         </section>
       </section>
